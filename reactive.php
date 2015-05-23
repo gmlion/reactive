@@ -22,6 +22,8 @@ add_action( 'get_footer', 'reactive_script' );
 /*Admin code*/
 include_once( 'reactive_options.php');
 
+
+
 function reactive_menu()
 {
     add_options_page( __( 'Reactive Settings' , 'reactive' ), __( 'Reactive', 'reactive' ), 'manage_options', 'reactive_options', 'reactive_options_page' );
